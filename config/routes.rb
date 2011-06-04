@@ -9,7 +9,7 @@ Laughinglikes::Application.routes.draw do
   match '/terms', :to => 'pages#terms'
   match '/pictures', :to => 'pages#pictures'
   match '/videos', :to => 'pages#videos'
-  
+  match '/controlrm', :to => 'pages#controlrm'
   
   
   # The priority is based upon order of creation:

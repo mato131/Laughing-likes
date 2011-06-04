@@ -26,4 +26,8 @@ class PagesController < ApplicationController
   def videos
     @title = "Videos"
   end
+  def controlrm
+    @title ="Control Room"
+    
+  end
 end
