@@ -1,19 +1,6 @@
 Laughinglikes::Application.routes.draw do
 
 
-  get "pages/home"
-
-  get "pages/contact"
-
-  get "pages/privacy"
-
-  get "pages/submit"
-
-  get "pages/term"
-
-  get "pages/pictures"
-
-  get "pages/videos"
 
   root :to => "pages#home"
   match '/submit', :to => 'pages#submit'
