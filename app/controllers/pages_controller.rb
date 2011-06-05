@@ -26,8 +26,11 @@ class PagesController < ApplicationController
   def videos
     @title = "Videos"
   end
+<<<<<<< HEAD
   def controlrm
     @title ="Control Room"
     
   end
+=======
+>>>>>>> user-microposts
 end

@@ -1,7 +1,10 @@
 Laughinglikes::Application.routes.draw do
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> user-microposts
   root :to => "pages#home"
   match '/submit', :to => 'pages#submit'
   match '/privacy', :to => 'pages#privacy'
@@ -9,7 +12,11 @@ Laughinglikes::Application.routes.draw do
   match '/terms', :to => 'pages#terms'
   match '/pictures', :to => 'pages#pictures'
   match '/videos', :to => 'pages#videos'
+<<<<<<< HEAD
   match '/controlrm', :to => 'pages#controlrm'
+=======
+  
+>>>>>>> user-microposts
   
   
   # The priority is based upon order of creation:
